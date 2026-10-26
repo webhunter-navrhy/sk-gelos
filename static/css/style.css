@@ -39,9 +39,10 @@ a { color: inherit; }
 .hero { background: var(--soft); padding-block: clamp(2.5rem,2rem + 4vw,6rem); }
 .hero-mriezka { display: grid; gap: 2.5rem; align-items: center; }
 .hero .uvod { margin-top: 1.25rem; font-size: var(--s-1); color: var(--muted); max-width: 40rem; }
-.hero h1 { max-width: 16ch; }
+.hero h1 { max-width: 20ch; }
+.hero { border-bottom: 6px solid var(--accent); }
 .hero-foto img { border-radius: 6px; width: 100%; aspect-ratio: 4/3; object-fit: cover; border-bottom: 6px solid var(--accent); }
-@media (min-width: 60rem) { .hero-mriezka { grid-template-columns: 1.1fr .9fr; } }
+
 
 .pas { background: var(--dark); color: #fff; }
 .pas-radek { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1.5rem; padding-block: 1rem; font-weight: 600; font-size: .95rem; }
