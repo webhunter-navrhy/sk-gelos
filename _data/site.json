@@ -1,0 +1,51 @@
+{
+  "slug": "sk-gelos",
+  "nazev": "GELOS – Roman Slezák",
+  "url": "https://webhunter-navrhy.github.io/sk-gelos/",
+  "base": "/sk-gelos/",
+  "lang": "sk",
+  "popis": "GELOS, Banská Štiavnica: dezinfekcia, dezinsekcia a deratizácia. Odstránime potkany, myši, šváby, ploštice a ďalších škodcov z domov, firiem, škôl aj hotelov.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "zasah.jpg",
+  "logo": "logo.png",
+  "theme_color": "#c8202a",
+  "typ": "LocalBusiness",
+  "ico": "34546278",
+  "kontakt": {
+    "email": "gelos@gelos.sk",
+    "telefon": "0903 539 921",
+    "adresa": {
+      "ulice": "Jilemnického 2",
+      "psc": "969 01",
+      "mesto": "Banská Štiavnica",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dopyt z webu gelos.sk"
+  },
+  "nav": [
+    {
+      "text": "Služby",
+      "href": "#sluzby"
+    },
+    {
+      "text": "Postup",
+      "href": "#postup"
+    },
+    {
+      "text": "Z našej práce",
+      "href": "#praca"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

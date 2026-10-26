@@ -1,0 +1,93 @@
+{% extends "_base.html" %}
+{% set titulek = 'Dezinfekcia, dezinsekcia a deratizácia, Banská Štiavnica – GELOS' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-mriezka">
+    <div>
+      <p class="stitok">Banská Štiavnica · člen cechu profesionálov DDD</p>
+      <h1>Škodcov z Vášho domu, firmy či záhrady odstránime</h1>
+      <p class="uvod">Dezinfekcia, dezinsekcia a deratizácia pre domácnosti, firmy, školy, hotely, závody aj maštale. Keď si už neviete rady sami, obráťte sa na odborníkov.</p>
+      <div class="tlacitka"><a class="tlacitko" href="#kontakt">Požiadať o cenovú ponuku</a><a class="tlacitko druhe" href="#sluzby">Naše služby</a></div>
+    </div>
+    <div class="hero-foto">{{ img('zasah.jpg', 'Pracovník GELOS pri zásahu vo výrobnej hale', sizes='(min-width: 60rem) 34rem, 100vw') }}</div>
+  </div>
+</section>
+
+<section class="pas"><div class="wrap pas-radek"><span>Domácnosti</span><span>Firmy a závody</span><span>Školy a hotely</span><span>Záhrady a maštale</span></div></section>
+
+<section class="sekce" id="sluzby">
+  <div class="wrap">
+    <p class="stitok">Čo robíme</p>
+    <h2>Tri služby proti škodcom</h2>
+    <ul role="list" class="karty">
+      <li class="karta">
+        {{ img('mravec.jpg', 'Mravec', sizes='(min-width: 60rem) 24rem, 100vw') }}
+        <h3>Dezinsekcia</h3>
+        <p>Ničenie škodlivého hmyzu: švábov, ploštíc, blch, mravcov, múch, komárov či kobyliek.</p>
+        <ul role="list" class="odrazky"><li>Chemické metódy (insekticídy)</li><li>Fyzikálno-mechanické metódy, napr. vysoké teploty a mucholapky</li><li>Biologické metódy</li></ul>
+      </li>
+      <li class="karta">
+        {{ img('mys.jpg', 'Myš', sizes='(min-width: 60rem) 24rem, 100vw') }}
+        <h3>Deratizácia</h3>
+        <p>Ničenie potkanov, myší, hrabošov a ďalších hlodavcov v obytných priestoroch aj vonku.</p>
+        <ul role="list" class="odrazky"><li>Mechanické metódy (pasce)</li><li>Fyzikálne metódy (ultrazvuk)</li><li>Chemické metódy</li></ul>
+      </li>
+      <li class="karta">
+        {{ img('kontrola.jpg', 'Kontrola priestoru', sizes='(min-width: 60rem) 24rem, 100vw') }}
+        <h3>Dezinfekcia</h3>
+        <p>Ničenie choroboplodných a nežiaducich mikroorganizmov v domácnostiach i prevádzkach.</p>
+        <ul role="list" class="odrazky"><li>Mechanická (upratovanie, umývanie, vetranie)</li><li>Fyzikálna (autoklávy, sterilizátory)</li><li>Chemická</li></ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="pruh">
+  <div class="wrap pruh-obsah">
+    <h2>Prečo nenechať deratizáciu na odborníkoch</h2>
+    <p>S jednou či dvoma myšami si poradíte pascou. Keď sa situácia vymkne spod kontroly, potkany a myši sa množia veľmi rýchlo a hlodavce často prenášajú choroby. Odborný zásah ušetrí čas, námahu aj peniaze.</p>
+  </div>
+</section>
+
+<section class="sekce" id="postup">
+  <div class="wrap">
+    <p class="stitok">Cenová ponuka</p>
+    <h2>Každá zákazka je iná, preto cenu pripravíme na mieru</h2>
+    <ol role="list" class="kroky">
+      <li><strong>Napíšete nám</strong><span>aký druh služby potrebujete a v akom rozsahu</span></li>
+      <li><strong>Upresníte miesto</strong><span>kde treba zásah vykonať</span></li>
+      <li><strong>Pripravíme presnú cenu</strong><span>v čo najkratšom čase</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sekce svetla" id="praca">
+  <div class="wrap">
+    <p class="stitok">Fotogaléria</p>
+    <h2>Ukážky z našej práce</h2>
+    <ul role="list" class="galeria">
+      <li>{{ img('potkan.jpg', 'Chytený potkan', sizes='(min-width: 60rem) 17rem, 50vw') }}</li>
+      <li>{{ img('mravce.jpg', 'Mravce v rohu miestnosti', sizes='(min-width: 60rem) 17rem, 50vw') }}</li>
+      <li>{{ img('svab.jpg', 'Šváb', sizes='(min-width: 60rem) 17rem, 50vw') }}</li>
+      <li>{{ img('plostica.jpg', 'Ploštice', sizes='(min-width: 60rem) 17rem, 50vw') }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap kontakt-mriezka">
+    <div>
+      <p class="stitok">Kontakt</p>
+      <h2>Napíšte nám, s akými škodcami bojujete</h2>
+      <dl class="udaje">
+        <dt>Sídlo</dt><dd>GELOS, Jilemnického 2, 969 01 Banská Štiavnica</dd>
+        <dt>Prevádzka</dt><dd>Poľovnícka 1, 969 01 Banská Štiavnica</dd>
+        <dt>Mobil</dt><dd><a href="tel:+421903539921">0903 539 921</a> · <a href="tel:+421911539999">0911 539 999</a></dd>
+        <dt>E-mail</dt><dd><a href="mailto:gelos@gelos.sk">gelos@gelos.sk</a></dd>
+      </dl>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}
